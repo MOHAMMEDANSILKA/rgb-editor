@@ -3,7 +3,7 @@ from flask import Flask, request, jsonify, send_file
 
 app = Flask(__name__)
 
-# API endpoint to handle the compilation
+# API endpoint to handle the compilation.
 @app.route('/compile', methods=['POST'])
 def compile_code():
     # Get the C++ code from the request
